@@ -2,10 +2,13 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: #F3F6F7;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 .container {
-    padding-top: 80px;
-    padding-bottom: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 15px 60px 15px;
 }
 .navbar {
     position: fixed;
@@ -115,22 +118,8 @@ body {
     text-align: center;
 }
 .summercamplogo {
-    display: block;
-    padding: 50px;
-    margin: auto;
-    max-width: auto;
-    height: 500px;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 15px;
-    padding: 15px;
+    max-width: 100%;
+    height: auto;
 }
 .icons {
     width: 250px;

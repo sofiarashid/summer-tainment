@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     background-color: #F3F6F7;
     padding-bottom: 25px;
+    padding-top: 50px;
 }
 .container {
     max-width: 1200px;
@@ -12,26 +13,28 @@ body {
 .navbar {
     position: fixed;
     top: 0;
-    z-index: 1020;
-    overflow: hidden;
     width: 100%;
+    z-index: 1020;
     padding: 10px;
     color: black;
     font-family: "router", sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
+    overflow: visible;
+    background-color: #f8f9fa;
 }
 .nav-link {
     color: black;
     font-family: "router", sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
 }
 .nav-link:hover {
     color: #006d77;
     font-weight: bolder;
+}
+.navbar-collapse {
+    overflow: visible;
 }
 .titleFont {
     color: #006d77;

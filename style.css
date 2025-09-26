@@ -119,7 +119,9 @@ body {
 .summercamplogo {
     display: block;
     height: 500px;
-    margin: 10px 0 50px 0;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
 }
 .row {
     display: flex;

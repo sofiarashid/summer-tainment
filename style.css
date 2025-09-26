@@ -79,7 +79,7 @@ body {
     font-style: normal;
     color: #006d77;
     padding: 50px;
-    margin: 100px auto;
+    margin: 100px;
     max-width: 100%;
     overflow: hidden;
 }
@@ -118,11 +118,14 @@ body {
     text-align: center;
 }
 .summercamplogo {
-    display: block;
-    padding: 50px;
-    margin: auto;
     max-width: auto;
     height: 500px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
 }
 .icons {
     width: 250px;
